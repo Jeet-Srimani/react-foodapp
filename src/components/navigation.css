@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 10rem;
+    background-color: rgb(148, 23, 14);
+    color: white;
+    font-family: Roboto;
+}
+.cart-btn {
+    padding: 0.7rem 1.4rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(59, 2, 2);
+    color: rgb(236, 235, 235);
+    cursor: pointer;
+}
+.cart-btn >div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.cart-amount {
+    margin-left: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(153, 16, 6);
+    color: white;
+    padding: 0.2rem 0.8rem;
+    border-radius: 12px;
+}

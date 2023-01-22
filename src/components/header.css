@@ -1,0 +1,23 @@
+.header {
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    width: 65%;
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px rgba(22, 22, 22, 0.8);
+    font-family: Roboto;
+
+}
+
+.header > h1 {
+    margin-bottom: 1.3rem;
+}
+.header > p {
+    margin-bottom: 0.9rem;
+}

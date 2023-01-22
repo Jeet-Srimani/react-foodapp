@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: auto;
+  color: rgb(238, 238, 238);
+}
+
+.app-container {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-image-div {
+    min-height: 22rem;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/303/793/304/buffet-meal-food-brunch-wallpaper-0910d80db1ca9d1bb6e7088fa00116fd.jpg);
+    background-position: center;
+}
+
+.banner-img {
+    position: relative;
+}

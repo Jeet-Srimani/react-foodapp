@@ -1,0 +1,45 @@
+.cart-item {
+    display: flex;
+    width: 88%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: roboto;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.action-bottons-div > button {
+    padding: 0.3rem 1.2rem;
+    margin: 0rem 0.3rem;
+    background-color: white;
+    border: 1px solid rgba(207, 29, 29, 0.377);
+    border-radius: 4px;
+    font-size: 1.1rem;
+    color: rgb(160, 16, 16);
+    cursor: pointer;
+}
+
+.price-and-quantity {
+    width: 100%;
+    display: flex; 
+    align-items: center;
+}
+
+.quantity {
+    margin-left: 2rem;
+    background-color: white;
+    color: black;
+    width: 28px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 4px;
+}
+
+.item-price {
+    color: rgb(95, 8, 8)
+}

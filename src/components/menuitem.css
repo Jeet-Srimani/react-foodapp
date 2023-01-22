@@ -1,0 +1,55 @@
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: roboto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.menu-item >div> h4 {
+    font-size: 1.2rem;
+}
+
+.menu-item >div> p {
+    font-style: italic;
+}
+.item-price {
+    color: rgb(153, 8, 8)
+}
+.menu-right-side {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.amount-add-btn {
+    display: flex;
+    position: relative;    
+
+}
+.amountandadd {
+    margin: 0.2rem 0;
+}
+
+.amount-add-btn > input {
+    width: 28px;
+    margin-left: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 4px;
+}
+.add-btn {
+    padding: 0.3rem 1.3rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(59, 2, 2);
+    color: rgb(247, 247, 247);  
+    font-weight: bold; 
+    margin-left: 10px;
+    cursor: pointer;
+}
